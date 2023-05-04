@@ -28,3 +28,23 @@ function kgToGram(param:string | number): string |number |undefined {
 
 const resultToBeNumber = kgToGram(34) as number ; 
 const resultToBeString =kgToGram("1000") as string ;
+
+
+
+// ekta custom error banabo 
+type CustomErrorType = {
+    message:string
+}
+
+
+// ebar try catch diye dekhbo 
+
+
+try{
+
+}catch(err){
+    console.log((err as CustomErrorType).message) ; 
+}
+
+
+// <string> jahid.length
