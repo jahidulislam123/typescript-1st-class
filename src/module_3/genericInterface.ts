@@ -134,3 +134,23 @@ const crush4d : CrushEkadikGeneric <{name:string,age:number},{name:string,age:nu
         age : 45
     }
 }
+
+
+// same jinishtake ekta interface er maddhome korbo 
+interface CrushF {
+    name:string,
+    age:number
+
+}
+const crush4dd : CrushEkadikGeneric <CrushF,CrushF> ={
+    name : "parsial",
+    husband :{
+        name :'lallu mia',
+        age : 23
+
+    },
+    wife:{
+        name : "winset",
+        age : 45
+    }
+}
