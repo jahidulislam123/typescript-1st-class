@@ -90,3 +90,18 @@ const relationonWithSalarys : GenericToupole<{name:string,salary:number},string>
 "jahidul"
 ]
 
+
+
+interface relationonWithSalaryssInterface {
+    name:string;
+    salary : number
+}
+
+// nicer jinis take interface er maddhome korte pari 
+const relationonWithSalaryss : GenericToupole<relationonWithSalaryssInterface,string>=[{
+    name:'persian',
+    salary : 10 
+},
+"jahidul"
+]
+
