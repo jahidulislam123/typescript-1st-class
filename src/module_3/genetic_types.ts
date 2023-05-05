@@ -105,3 +105,30 @@ const relationonWithSalaryss : GenericToupole<relationonWithSalaryssInterface,st
 "jahidul"
 ]
 
+
+
+
+// spread operator 
+
+const cruss ="jahidul";
+const myInfo ={
+    name: "jahidul islam",
+    age : 100 ,
+    salary : 1234
+};
+// const newData  = {...myInfo , cruss} 
+
+const addMeInMyCrushMind=(myInfod:object)=>{
+    const crush = "kate winslet";
+    const newData ={...myInfo,crush};
+    return newData;
+}
+const myInfod = {
+    name : "jahidul",
+    age : 100,
+    salary : 12345
+};
+
+
+
+const resulttt = addMeInMyCrushMind(myInfod)
