@@ -1,6 +1,6 @@
 type GenericArray = Array<number>
 const rrollNumberd: GenericArray=[44,23,45];
-const rollNumbe22e:GenericArray=["44","23","65"];
+// const rollNumbe22e:GenericArray=["44","23","65"];
 // ekhon jodi string pathay tahole tw kaj korbe na error dekhabe . ekhon ki kora jay 
 //  tar jonno ekta boddi aci . generic er angle e ekta T ba onno kono name peramiter diye dibo jate 
 // kore jekono type recevive korte pre 
@@ -108,6 +108,9 @@ const relationonWithSalaryss : GenericToupole<relationonWithSalaryssInterface,st
 
 
 
+
+
+
 // spread operator 
 
 const cruss ="jahidul";
@@ -132,3 +135,35 @@ const myInfod = {
 
 
 const resulttt = addMeInMyCrushMind(myInfod)
+
+
+
+
+
+
+
+// spread operator with generic 
+
+const crusssss ="jahidul";
+const myInfoss ={
+    name: "jahidul islam",
+    age : 100 ,
+    salary : 1234
+};
+// const newData  = {...myInfo , cruss} 
+
+const addMeInMyCrushMindd=<T> (myInfods:T)=>{
+    const crush = "kate winslet";
+    const newData ={...myInfo,crush};
+    return newData;
+}
+const myInfods = {
+    name : "jahidul",
+    age : 100,
+    salary : 12345
+};
+
+
+
+const resultttd = addMeInMyCrushMind(myInfods)
+
