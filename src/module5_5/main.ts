@@ -38,7 +38,13 @@
 // finally ami jevabe korbo 
 // import { add as addtwo ,substruct,multiplu} from "./module";
 // amra evabe protidin comma diye na likhe onno vabe korte par
-import jekono  from "./module";
+
+// import addFrom from './utils/add'
+// import subFrom from './utils/substract'
+// import multiFrom from './utils/multiply'
+// uporer 3 line na kore index.ts er modde egula copy kore bosailam 
+import Method from './utils/index'
+// import jekono  from "./module";
 const add = (param1:number,param2:number,param3:number):number=>{
     return param1+param2+param3;
 }
@@ -54,8 +60,8 @@ const add = (param1:number,param2:number,param3:number):number=>{
 
 
 // ekhano evabe korte hobe 
-const res = jekono.add(4,5);
+const res = Method.addTwo(4,5);
 
-const res2 =jekono.multiplu(5,4)
+const res2 =Method.multiply(5,4)
 
-const res3 = jekono.substruct(4,5);
+const res3 = Method.substract(4,5);
