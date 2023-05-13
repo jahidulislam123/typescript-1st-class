@@ -36,3 +36,39 @@ type optional =Partial<Person>
 type RequiredProps = Required<Person>
 // ekhon sobgula properties required hobe
 // i mean mendatory kore felbe 
+
+
+
+
+
+// aro kicu utility type ace 
+// read only type 
+
+const person11 : Readonly<Person> ={
+    name: "Person",
+    email:"islam15-3879@diu.edu.bd",
+    contactNom:'234'
+}
+
+person11.name="Forhan";
+// readonly dile nam assign kora jay na sudho porte parbo kicu change korte parbona 
+
+
+
+// const 
+
+// type myObj ={
+//     a:string,
+//     b:string,
+//     c:string
+// }
+// egula evabe na kore ami onno vabe korte pari 
+type myObj ={
+    [key :string]:string;
+}
+
+const obj :myObj={
+    a:"1",
+    b:"3",
+    c:"5"
+}
